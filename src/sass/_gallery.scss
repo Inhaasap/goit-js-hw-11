@@ -1,10 +1,10 @@
 .gallery {
-  padding-top: 2.5rem;
+  padding-top: 70px;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: .625rem;
+  gap: 20px;
 }
 
 .photo-card {
@@ -18,19 +18,23 @@
   height: 250px;
 }
 
-
 .info {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   padding: 10px;
 
   width: 100%;
 
   font-size: 10px;
 
-  background: radial-gradient(circle 610px at 5.2% 51.6%, rgba(245, 237, 251, 0.767) 0%, rgba(238, 238, 253, 0.699) 97.5%) no-repeat fixed;
+  background: radial-gradient(
+      circle 610px at 5.2% 51.6%,
+      rgba(245, 237, 251, 0.767) 0%,
+      rgba(238, 238, 253, 0.699) 97.5%
+    )
+    no-repeat fixed;
 }
 
 .info-item {
@@ -44,8 +48,8 @@
   text-align: center;
   background-color: transparent;
 
-  color: #8e8cc0;
-  text-shadow: 1px 1px 1px #FFF;
+  color: #0d05f3;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 .info-item-likes {
@@ -53,7 +57,6 @@
   flex-direction: row;
   align-items: center;
 }
-
 
 .box-likes {
   display: flex;
@@ -63,11 +66,12 @@
 
 .load-more {
   display: block;
-  margin-top: 1.25rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 9.375rem;
-  padding: .625rem;
+  padding: 0.625rem;
 }
 
 ul {
